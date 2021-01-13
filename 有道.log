@@ -1,0 +1,3 @@
+2021-01-02 17:01:05,019 - 01.py[line:80] - INFO: 查询| 归并 | 结果是 | merge 归并 |
+2021-01-02 17:02:14,177 - 01.py[line:80] - INFO: 查询| cd "e:\CProject\sort\" ; if ($?) { g++  6_merge.cpp  -o 6_merge.exe } ; if ($?) { ./6_merge.exe } | 结果是 | cd“CProject e: \ \ \”; cd "e:\CProject\sort\" ;  |
+2021-01-02 17:02:18,011 - 01.py[line:71] - ERROR: 成功退出
