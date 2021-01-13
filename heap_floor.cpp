@@ -174,5 +174,6 @@ int main(){
     }
     
     show(Q,head);index=0;printf("\n");
+    free(Q);
     return true;
 }

@@ -1,14 +1,24 @@
 #include<stdio.h>
 #include <iostream>
 using namespace std; 
-int main();
-void getAverageDistance()
-{
-	printf("call get\n");
-	main();
-}
+// int main();
+// void getAverageDistance()
+// {
+	
+// }
 int main(){
-	printf("call main\n");
-    getAverageDistance();
+	int *p = (int *)malloc(8*sizeof(int));
+	int a[100] = {29, 47, 1, 80, 90, 38, 56, 96, 96, 0, 58,
+     71, 21, 70, 50, 11, 36, 1, 74, 53, 85, 79, 60, 44, 67, 43, 65,
+      37, 70, 46, 0, 64, 23, 92, 20, 1, 93, 26, 34, 87, 33, 65, 70,
+       61, 53, 21, 83, 77, 21, 83, 67, 43, 92, 84, 67, 76, 50, 30, 12,
+        34, 88, 23, 11, 34, 41, 82, 54, 68, 3, 86, 0, 19, 57, 4, 30, 45,
+         42, 54, 84, 3, 46, 21, 66, 28, 42, 84, 7, 91, 6, 81, 4, 44, 16,
+          22, 57, 65, 89, 85, 76, 58};
+	     int i=0;
+    for(int j=0;j<100;){
+        if(a[j++]<10) i++;
+    }
+    printf("%d  \n",i);
     return 1;
 }
